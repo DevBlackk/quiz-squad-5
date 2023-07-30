@@ -1,2 +1,77 @@
 /* parte da fernanda e davidson*/
+body {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font: normal 15pt Arial;
+    background: #71c2ff;
+}
 
+.container-principal {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-1 {
+    width: 75%;
+    height: 50%;
+    background: rgb(122, 154, 239);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    display: none;
+}
+
+.registro {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+input {
+    width: 50%;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    background: #9ebeff;
+    margin-bottom: 5px;
+}
+
+button{
+    width: 50%;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background: #9ebeff;
+    font-size: 10px;
+    margin: 5px 5px;
+}
+.container-2 {
+    width: 75%;
+    height: 50%;
+    background: rgb(122, 154, 239);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.botao {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
