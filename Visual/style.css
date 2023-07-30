@@ -26,7 +26,6 @@ body {
     align-items: center;
     text-align: center;
     border-radius: 30px;
-    display: none;
 }
 
 .registro {
@@ -45,6 +44,7 @@ input {
     border-radius: 5px;
     background: #9ebeff;
     margin-bottom: 5px;
+    text-align: center;
 }
 
 button{
@@ -66,12 +66,30 @@ button{
     align-items: center;
     text-align: center;
     border-radius: 30px;
+    display: none;
 }
 
 .botao {
     width: 75%;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+}
+
+.botao > button {
+    width: 75%;
+    margin: 10px auto;
+    font-size: 10pt;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 720px){
+    .container-1 {
+        width: 40%;
+    }
+
+    .container-2 {
+        width: 40%;
+    }
 }
