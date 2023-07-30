@@ -26,7 +26,6 @@ body {
     align-items: center;
     text-align: center;
     border-radius: 30px;
-    display: none;
 }
 
 .registro {
@@ -67,6 +66,7 @@ button{
     align-items: center;
     text-align: center;
     border-radius: 30px;
+    display: none;
 }
 
 .botao {
