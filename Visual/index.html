@@ -4,33 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Quiz!</title>
+    <title>Quiz Squad 5</title>
 </head>
 <body>
     <div class="main">
         <div class="content">
-            <div class="titulo">
-                <h1>Quiz!</h1>
+            <div class="titulo"> <!--Titulo do Quiz-->
+                <h1 id="tituloQuiz">Quiz Squad-5</h1>
             </div>
-            <div class="perguntas">
-                <div class="pergunta1">
-                    <h1>
-                        1º Pergunta: <br>
-                        Qual é o nome do criador da linguagem de programação Python? <br>
-                        <br>
-                        Alternativas:
-                        <hr>
-                        ( A ) -> Guido van Rossum <br>
-                        ( B ) -> James Gosling <br>
-                        ( C ) -> Elon Musk<br>
-                        ( D ) -> Gustavo Guanabara<br>
-                        <br>
-                        <button class="btnResposta1" onclick="resposta1()">Responder</button>
-                    </h1>
+            <div class="informacoes"> <!--Informações sobre o projeto como discrição e apresentação-->
+                <div class="apresentacao">
+                    <h2 id="apresentacao">Apresentação</h2>
                 </div>
+                <div class="discricao">
+                    <h2 id="discricao">Discrição</h2>
+                </div>
+            </div>
+            <div class="botaoIniciar">
+                <input type="button" value="iniciar" onclick="iniciar()">
             </div>
         </div>
     </div>
-    <script src="perguntas.js"></script>
+    <div class="principal">
+        <div class="titulo">
+            <h1 id="tituloQuiz">Quiz Squad-5</h1>
+        </div>
+        <div class="perguntas">
+            <div class="pergunta1">
+                <h2>
+                    1ยบ Pergunta: <br>
+                    Em que ano a companhia Apple foi criada?
+                    <hr>
+                    Alternativas: <br>
+                    (A) -> 1976 <br>
+                    (B) -> 1986 <br>
+                    (C) -> 1992 <br>
+                    (D) -> 2000 <br>
+                    <br>
+                    <button onclick="primeira()">Responder</button>
+                </h2>
+            </div>
+            <br>
+            <div class="pergunta2">
+                <h2>
+                    2ยบ Pergunta: <br>
+                    Em qual ano o Google chegou ao Brasil?
+                    <hr>
+                    Alternativas <br>
+                    (A) -> 2003 <br>
+                    (B) -> 1999 <br>
+                    (C) -> 2013 <br>
+                    (D) -> 2005 <br>
+                    <br>
+                    <button onclick="segunda()" id="resposta2">Responder</button>
+                </h2>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
