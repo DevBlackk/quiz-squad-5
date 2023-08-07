@@ -4,62 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Quiz Squad 5</title>
+    <title>Quiz!</title>
 </head>
 <body>
-    <div class="main">
-        <div class="content">
-            <div class="titulo"> <!--Titulo do Quiz-->
+    <article class="inicio">
+        <section class="login">
+            <div class="main">
                 <h1 id="tituloQuiz">Quiz Squad-5</h1>
-            </div>
-            <div class="informacoes"> <!--Informações sobre o projeto como discrição e apresentação-->
-                <div class="apresentacao">
-                    <h2 id="apresentacao">Apresentação</h2>
-                </div>
-                <div class="discricao">
-                    <h2 id="discricao">Discrição</h2>
-                </div>
-            </div>
-            <div class="botaoIniciar">
+                <p></p>
                 <input type="button" value="iniciar" onclick="iniciar()">
             </div>
-        </div>
-    </div>
-    <div class="principal">
+        </section>
+    </article>
+    <article class="principal">
         <div class="titulo">
             <h1 id="tituloQuiz">Quiz Squad-5</h1>
         </div>
-        <div class="perguntas">
-            <div class="pergunta1">
-                <h2>
-                    1ยบ Pergunta: <br>
-                    Em que ano a companhia Apple foi criada?
-                    <hr>
-                    Alternativas: <br>
-                    (A) -> 1976 <br>
-                    (B) -> 1986 <br>
-                    (C) -> 1992 <br>
-                    (D) -> 2000 <br>
-                    <br>
-                    <button onclick="primeira()">Responder</button>
-                </h2>
-            </div>
-            <br>
-            <div class="pergunta2">
-                <h2>
-                    2ยบ Pergunta: <br>
-                    Em qual ano o Google chegou ao Brasil?
-                    <hr>
-                    Alternativas <br>
-                    (A) -> 2003 <br>
-                    (B) -> 1999 <br>
-                    (C) -> 2013 <br>
-                    (D) -> 2005 <br>
-                    <br>
-                    <button onclick="segunda()" id="resposta2">Responder</button>
-                </h2>
-            </div>
-        </div>
+        <section class="pergunta-1">
+            <h2>1º Pergunta:</h2>
+            <h3>Em que ano a companhia Apple foi criada?</h3>
+            <h2>Alternativas:</h2>
+            <p>(A) -> 1976</p>
+            <p>(B) -> 1986</p>
+            <p>(C) -> 1992</p> 
+            <p>(D) -> 2000</p> 
+            <button onclick="primeira()">Responder</button>
+            <!-- Resposta: A -->
+        </section>
+        <section class="pergunta-2">
+            <h2>2º Pergunta:</h2>
+            <h3>Em qual ano o Google chegou ao Brasil?</h3>
+            <h2>Alternativas:</h2>
+            <p>(A) -> 2003</p> 
+            <p>(B) -> 1999 </p>
+            <p>(C) -> 2013</p> 
+            <p>(D) -> 2005</p> 
+            <button onclick="segunda()">Responder</button>
+            <!-- Resposta: D -->
+        </section>
+        <section class="pergunta-3">
+            <h2>3º Pergunta:</h2>
+            <h3>Qual é o nome do cofundador da Apple que virá ao Brasil para falar sobre novas tecnologias em 2023?</h3>
+            <h2>Alternativas:</h2>
+            <p>(A) -> Steve Jobs</p> 
+            <p>(B) -> Steve Wozniak</p>
+            <p>(C) -> Tim Cook</p> 
+            <p>(D) -> Bill Gates Resposta</p> 
+            <button onclick="terceira()">Responder</button>
+            <!-- Resposta: B -->
+        </section>
+        <section class="pergunta-4">
+            <h2>4º Pergunta:</h2>
+            <h3></h3>
+            <h2>Alternativas:</h2>
+            <p>(A) -> Siri</p> 
+            <p>(B) -> Alexa</p>
+            <p>(C) -> AudioCraft</p> 
+            <p>(D) -> Gaia</p> 
+            <button onclick="quarta()">Responder</button>
+            <!-- Resposta: D -->
+        </section>
+        <section class="pergunta-5">
+            <h2>5º Pergunta:</h2>
+            <h3>Qual é o nome da rede social que Elon Musk disse que financiará as despesas jurídicas de quem for injustiçado no trabalho por posts ou likes?</h3>
+            <h2>Alternativas:</h2>
+            <p>(A) -> Facebook</p> 
+            <p>(B) -> Twitter</p>
+            <p>(C) -> Instagram</p> 
+            <p>(D) -> X</p> 
+            <button onclick="quinta()">Responder</button>
+            <!-- Resposta: C -->
+        </section>
     </div>
     <script src="app.js"></script>
 </body>
