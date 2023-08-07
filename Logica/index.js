@@ -1,3 +1,7 @@
+
+function quiz () {
+    console.log("projeto", 1)
+}
 // separei em pastas cada parte que cada vai fazer
 var acerto = 0;
 var perguntaUm = " "
@@ -40,4 +44,4 @@ function quarta () {
     } else {
         alert("Tente novamente")
     }
-    }
+ 
