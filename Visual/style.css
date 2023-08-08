@@ -5,91 +5,91 @@ body {
     box-sizing: border-box;
     font: normal 15pt Arial;
     background: #71c2ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.container-principal {
+.inicio {
+    width: 100%;
     height: 100vh;
-    width: 100%;
+}
+
+.login {
+    height: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.container-1 {
-    width: 75%;
-    height: 50%;
-    background: rgb(122, 154, 239);
+.main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-radius: 30px;
-}
-
-.registro {
-    width: 100%;
-    height: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
 }
 
 input {
-    width: 50%;
-    height: 25px;
+    width: 100px;
+    height: 50px;
+    background-color: #7e85ff;
     border: none;
-    border-radius: 5px;
-    background: #9ebeff;
-    margin-bottom: 5px;
-    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
 }
 
-button{
-    width: 50%;
-    height: 35px;
-    border: none;
-    border-radius: 5px;
-    background: #9ebeff;
-    font-size: 10px;
-    margin: 5px 5px;
-}
-.container-2 {
-    width: 75%;
-    height: 50%;
-    background: rgb(122, 154, 239);
+.principal {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    border-radius: 30px;
-    display: none;
 }
 
-.botao {
-    width: 75%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.pergunta-1 {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.botao > button {
-    width: 75%;
-    margin: 10px auto;
-    font-size: 10pt;
-    font-weight: 700;
+.pergunta-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-@media screen and (min-width: 720px){
-    .container-1 {
-        width: 40%;
-    }
+.pergunta-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-    .container-2 {
-        width: 40%;
-    }
+.pergunta-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pergunta-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    background-color: #7e85ff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+    margin-top: 15px;
+}
+
+h3 {
+    width: 75%;
 }
