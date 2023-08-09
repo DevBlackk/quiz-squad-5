@@ -11,7 +11,7 @@ function iniciar() {
 }
 
 function primeira () {
-    if(prompt("insira a resposta da pergunta 1") =="a") {
+    if(prompt("insira a resposta da pergunta 1") =="a", "A") {
         alert("Voce acertou")
         window.location.href ="page2.html"
     } else {
@@ -21,7 +21,7 @@ function primeira () {
 }
 
 function segunda () {
-    if(prompt("insira a resposta da pergunta 2") =="c") {
+    if(prompt("insira a resposta da pergunta 2") =="c", "C") {
         alert("Voce acertou")
         window.location.href ="page3.html"
     } else {
@@ -31,7 +31,7 @@ function segunda () {
     }
 
 function terceira () {
-    if(prompt("insira a resposta da pergunta 3") =="d") {
+    if(prompt("insira a resposta da pergunta 3") =="d", "D") {
         alert("Voce acertou")
         window.location.href ="page4.html"
     } else {
@@ -42,7 +42,7 @@ function terceira () {
 
 
 function quarta () {
-    if(prompt("insira a resposta da pergunta 4") =="b") {
+    if(prompt("insira a resposta da pergunta 4") =="b", "B") {
         alert("Voce acertou")
         window.location.href ="page5.html"
     } else {
@@ -52,7 +52,7 @@ function quarta () {
     }
 
     function quinta () {
-        if(prompt("insira a resposta da pergunta 5") == "b") {
+        if(prompt("insira a resposta da pergunta 5") == "b", "B") {
             alert("Voce acertou")
             window.location.href = "final.html"
         } else {
