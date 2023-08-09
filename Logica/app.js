@@ -1,19 +1,14 @@
-
-var acerto = 0;
-var nome;
-
 function iniciar() {
-    var nome = prompt("Digite um nome");
-    var charset = nome.toString();
-    while(charset.length < 3) {
-        alert("Nome invalido estamos esperando um nome com mais de 3 caracteres");
-        nome = prompt("Digite o nome novamente."); 
-    }
-    if (charset.length > 3) {
-        window.location.href ="page1.html"
-    }
+    var nome
+    do {
+        nome = prompt("Digite o seu nome.");
+        if(nome.length <= 3) {
+            alert("O nome digitado tem que ter mais que 3 caracteres.");
+        }
+    } while(nome.length <= 3);
+    nome = nome[0].toUpperCase() + nome.substring(1);
+    window.location.href = "page1.html"
 }
-
 
 function primeira () {
     if(prompt("insira a resposta da pergunta 1") =="a") {
@@ -25,10 +20,8 @@ function primeira () {
     }
 }
 
-
-
 function segunda () {
-    if(prompt("insira a resposta da pergunta 1") =="c") {
+    if(prompt("insira a resposta da pergunta 2") =="c") {
         alert("Voce acertou")
         window.location.href ="page3.html"
     } else {
@@ -38,7 +31,7 @@ function segunda () {
     }
 
 function terceira () {
-    if(prompt("insira a resposta da pergunta 1") =="d") {
+    if(prompt("insira a resposta da pergunta 3") =="d") {
         alert("Voce acertou")
         window.location.href ="page4.html"
     } else {
@@ -49,7 +42,7 @@ function terceira () {
 
 
 function quarta () {
-    if(prompt("insira a resposta da pergunta 1") =="b") {
+    if(prompt("insira a resposta da pergunta 4") =="b") {
         alert("Voce acertou")
         window.location.href ="page5.html"
     } else {
@@ -59,8 +52,9 @@ function quarta () {
     }
 
     function quinta () {
-        if(prompt("insira a resposta da pergunta 1") =="b") {
+        if(prompt("insira a resposta da pergunta 5") == "b") {
             alert("Voce acertou")
+            window.location.href = "final.html"
         } else {
             alert("Tente novamente")
         }
