@@ -21,7 +21,7 @@ function primeira () {
 }
 
 function segunda () {
-    if(prompt("insira a resposta da pergunta 2") =="c") {
+    if(prompt("insira a resposta da pergunta 2") =="d") {
         alert("Voce acertou")
         window.location.href ="page3.html"
     } else {
@@ -31,7 +31,7 @@ function segunda () {
     }
 
 function terceira () {
-    if(prompt("insira a resposta da pergunta 3") =="d") {
+    if(prompt("insira a resposta da pergunta 3") =="b") {
         alert("Voce acertou")
         window.location.href ="page4.html"
     } else {
