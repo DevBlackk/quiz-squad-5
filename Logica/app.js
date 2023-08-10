@@ -42,7 +42,7 @@ function terceira () {
 
 
 function quarta () {
-    if(prompt("insira a resposta da pergunta 4") =="b") {
+    if(prompt("insira a resposta da pergunta 4") =="a") {
         alert("Voce acertou")
         window.location.href ="page5.html"
     } else {
